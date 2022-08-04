@@ -61,9 +61,10 @@
                 <div class="col-md-3 col-sm-6 col-12">
                     <div class="info-box">
                         <span class="info-box-icon bg-danger"><i class="fas fa-server"></i></span>
-
+                        <a href="./masterdata_v.php" class="nav-link">
                         <div class="info-box-content">
                             <span class="info-box-text">Master Data</span>
+
                         </div>
                         <!-- /.info-box-content -->
                     </div>

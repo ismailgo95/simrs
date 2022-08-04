@@ -63,7 +63,8 @@
             <span class="info-box-icon bg-danger"><i class="fas fa-server"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">Master Data</span>
+            <a href="<?php echo base_url("/Masterdata_C") ?>"><span class="info-box-text">Master Data</span></a>
+
             </div>
             <!-- /.info-box-content -->
           </div>
