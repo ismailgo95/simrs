@@ -27,7 +27,7 @@
             <span class="info-box-icon bg-info"><i class="nav-icon fas fa-desktop"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">Pendaftaran</span>
+              <span class="info-box-text">Pendaftarann</span>
             </div>
             <!-- /.info-box-content -->
           </div>
