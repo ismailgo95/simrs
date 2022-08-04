@@ -24,7 +24,7 @@
         <!-- Add icons to the links using the .nav-icon class
             with font-awesome or any other icon font library -->
         <li class="nav-item">
-          <a href="pages/kanban.html" class="nav-link active">
+          <a href="pages/kanban.html" class="nav-link">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
               Dashboard
@@ -32,8 +32,8 @@
           </a>
         </li>
         <li class="nav-header">PELAYANAN MEDIS</li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">
+        <li class="nav-item <?= $this->uri->segment(1) == "Pendaftaran" ? "menu-open" : "" ?>">
+          <a href="#" class="nav-link <?= $this->uri->segment(1) == "Pendaftaran" ? "active" : "" ?>">
             <i class="nav-icon fas fa-desktop"></i>
             <p>
               Pendaftaran
@@ -42,7 +42,7 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="pages/mailbox/mailbox.html" class="nav-link">
+              <a href="<?php echo base_url('/Pendaftaran') ?>" class="nav-link <?= $this->uri->segment(1) == "Pendaftaran" ? "active" : "" ?>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Pendaftaran Umum</p>
               </a>
