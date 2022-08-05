@@ -24,7 +24,7 @@
         <!-- Add icons to the links using the .nav-icon class
             with font-awesome or any other icon font library -->
         <li class="nav-item">
-          <a href="pages/kanban.html" class="nav-link">
+          <a href="<?= base_url('/Dashboard_C') ?>" class="nav-link <?= $this->uri->segment(1) == "Dashboard_C" ? "active" : "" ?>">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
               Dashboard

@@ -27,7 +27,7 @@
             <span class="info-box-icon bg-info"><i class="nav-icon fas fa-desktop"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">Pendaftarann</span>
+              <span class="info-box-text">Pendaftaran</span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -59,16 +59,13 @@
         </div>
         <!-- /.col -->
         <div class="col-md-3 col-sm-6 col-12">
-          <a href="">
-            <div class="info-box">
-              <span class="info-box-icon bg-danger"><i class="fas fa-server"></i></span>
+          <div class="info-box">
+            <span class="info-box-icon bg-danger"><i class="fas fa-server"></i></span>
 
             <div class="info-box-content">
-            <a href="<?php echo base_url("/Masterdata_C") ?>"><span class="info-box-text">Master Data</span></a>
-
+              <a href="<?php echo base_url("Masterdata_C") ?>"><span class="info-box-text">Master Data</span></a>
             </div>
-            <!-- /.info-box -->
-          </a>
+          </div>
         </div>
         <!-- /.col -->
       </div>

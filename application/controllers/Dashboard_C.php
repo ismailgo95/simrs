@@ -5,7 +5,10 @@ class Dashboard_C extends CI_Controller
 {
   public function index()
   {
-    $this->load->view('template/header');
+    $data = [
+      'title' => 'Dashboard | SIM RS'
+    ];
+    $this->load->view('template/header', $data);
     $this->load->view('template/sidebar');
     $this->load->view("dashboard_v");
     $this->load->view('template/footer');
