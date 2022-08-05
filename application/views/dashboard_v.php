@@ -9,7 +9,7 @@
         </div><!-- /.col -->
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="<?= base_url("Dashboard_C") ?>">Home</a></li>
             <li class="breadcrumb-item active">Dashboard</li>
           </ol>
         </div><!-- /.col -->
@@ -59,16 +59,16 @@
         </div>
         <!-- /.col -->
         <div class="col-md-3 col-sm-6 col-12">
-          <div class="info-box">
-            <span class="info-box-icon bg-danger"><i class="fas fa-server"></i></span>
+          <a href="">
+            <div class="info-box">
+              <span class="info-box-icon bg-danger"><i class="fas fa-server"></i></span>
 
             <div class="info-box-content">
             <a href="<?php echo base_url("/Masterdata_C") ?>"><span class="info-box-text">Master Data</span></a>
 
             </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
+            <!-- /.info-box -->
+          </a>
         </div>
         <!-- /.col -->
       </div>
